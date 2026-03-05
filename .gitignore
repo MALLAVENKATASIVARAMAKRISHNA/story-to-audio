@@ -1,0 +1,15 @@
+# IDE and Tool Specific Folders
+.claude/
+.entire/
+.gemini/
+.opencode/
+
+# Python Environment and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Project Specific Output
+output.mp3
