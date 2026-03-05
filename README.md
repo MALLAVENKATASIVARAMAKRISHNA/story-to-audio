@@ -31,6 +31,30 @@ This project contains a Python script to convert Telugu story text files into au
     SAVRAM_API_KEY="your_savram_api_key_here"
     ```
 
+## Examples
+
+### Example 1: కోతి మరియు మొసలి (The Monkey and the Crocodile)
+
+**Story Text:**
+> కోతి మరియు మొసలి
+> ఒకానొకప్పుడు ఒక పెద్ద నది తీరాన ఒక పెద్ద నేరేడు చెట్టు ఉండేది. ఆ చెట్టుపై ఒక తెలివైన కోతి నివసించేది. ఆ నేరేడు పండ్లు చాలా తీపిగా ఉండేవి. కోతి ప్రతిరోజూ ఆ పండ్లను తింటూ చాలా సంతోషంగా ఉండేది... (వెనక్కి వెళ్లి తన ప్రాణాలను కాపాడుకుంది).
+
+**Generated Audio:**
+<audio controls>
+  <source src="audios/output.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+---
+
+### Example 2: సింహం మరియు ఎలుక (The Lion and the Mouse)
+
+**Story Text:**
+> ఒక అడవిలో ఒక సింహం నిద్రపోతుండగా, ఒక చిన్న ఎలుక దానిపై ఆడుకోవడం మొదలుపెట్టింది. సింహం కోపంతో ఎలుకను పట్టుకుంది. ఎలుక ప్రాధేయపడటంతో సింహం దాన్ని వదిలేసింది. కొద్దిరోజుల తర్వాత సింహం వేటగాడి వలలో చిక్కుకోగా, ఎలుక ఆ వలను కొరికి సింహాన్ని కాపాడింది.
+
+**Generated Audio:**
+*(Run the script with this text to generate the audio)*
+
 ## Usage
 
 1.  Place your Telugu story text (max 200 words) in `story.txt`.
