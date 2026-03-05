@@ -10,6 +10,3 @@ __pycache__/
 *$py.class
 venv/
 .env
-
-# Project Specific Output
-output.mp3
